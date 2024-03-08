@@ -19,24 +19,24 @@ The following rules have to be respected:
 • Philosophers don’t know if another philosopher is about to die.  
 • No need to say that philosophers should avoid dying!  
 
-• My program should take the following arguments:
+• My program should take the following arguments:  
 &emsp;number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]  
-&emsp;◦ number_of_philosophers: The number of philosophers and also the number
-&ensp;&emsp;of forks.
-&emsp;◦ time_to_die (in milliseconds): If a philosopher didn’t start eating time_to_die
-&ensp;&emsp;milliseconds since the beginning of their last meal or the beginning of the sim-
-&ensp;&emsp;ulation, they die.
-&emsp;◦ time_to_eat (in milliseconds): The time it takes for a philosopher to eat.
-&ensp;&emsp;During that time, they will need to hold two forks.
-&emsp;◦ time_to_sleep (in milliseconds): The time a philosopher will spend sleeping.
-&emsp;◦ number_of_times_each_philosopher_must_eat (optional argument): If all
-&ensp;&emsp;philosophers have eaten at least number_of_times_each_philosopher_must_eat
-&ensp;&emsp;times, the simulation stops. If not specified, the simulation stops when a
-&ensp;&emsp;philosopher dies.
-• Each philosopher has a number ranging from 1 to number_of_philosophers.
-• Philosopher number 1 sits next to philosopher number number_of_philosophers.
-&emsp;Any other philosopher number N sits between philosopher number N - 1 and philoso-
-&emsp;pher number N + 1.
+&emsp;◦ number_of_philosophers: The number of philosophers and also the number  
+&ensp;&emsp;of forks.  
+&emsp;◦ time_to_die (in milliseconds): If a philosopher didn’t start eating time_to_die  
+&ensp;&emsp;milliseconds since the beginning of their last meal or the beginning of the  
+&ensp;&emsp;simulation, they die.  
+&emsp;◦ time_to_eat (in milliseconds): The time it takes for a philosopher to eat.  
+&ensp;&emsp;During that time, they will need to hold two forks.  
+&emsp;◦ time_to_sleep (in milliseconds): The time a philosopher will spend sleeping.  
+&emsp;◦ number_of_times_each_philosopher_must_eat (optional argument): If all  
+&ensp;&emsp;philosophers have eaten at least number_of_times_each_philosopher_must_eat  
+&ensp;&emsp;times, the simulation stops. If not specified, the simulation stops when a  
+&ensp;&emsp;philosopher dies.  
+• Each philosopher has a number ranging from 1 to number_of_philosophers.  
+• Philosopher number 1 sits next to philosopher number number_of_philosophers.  
+&emsp;Any other philosopher number N sits between philosopher number N - 1 and philoso-  
+&emsp;pher number N + 1.  
 
 This is an example with the following input"./philo 6 410 200 200 3  
 ![push_swap](https://github.com/cyberKev42/philosophers/blob/main/philosophers_cycle.png)
