@@ -20,7 +20,7 @@ The following rules have to be respected:
 • No need to say that philosophers should avoid dying!  
 
 • My program should take the following arguments:  
-&emsp;number_of_philosophers   time_to_die   time_to_eat   time_to_sleep   [number_of_times_each_philosopher_must_eat]  
+&emsp;number_of_philosophers &emsp; time_to_die &emsp; time_to_eat &emsp; time_to_sleep &emsp; [number_of_times_each_philosopher_must_eat]  
 &emsp;◦ number_of_philosophers: The number of philosophers and also the number  
 &ensp;&emsp;of forks.  
 &emsp;◦ time_to_die (in milliseconds): If a philosopher didn’t start eating time_to_die  
@@ -38,5 +38,5 @@ The following rules have to be respected:
 &emsp;Any other philosopher number N sits between philosopher number N - 1 and philoso-  
 &emsp;pher number N + 1.  
 
-This is an example with the following input"./philo 6 410 200 200 3  
+This is an example with the following input "./philo 6 410 200 200 3"  
 ![push_swap](https://github.com/cyberKev42/philosophers/blob/main/philosophers_cycle.png)
