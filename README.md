@@ -40,3 +40,4 @@ The following rules have to be respected:
 
 This is an example with the following input "./philo 6 410 200 200 3"  
 ![push_swap](https://github.com/cyberKev42/philosophers/blob/main/philosophers_cycle.png)
+Due to highly optimised eat/sleep cycles the thinking stage is kept to a minimum.
