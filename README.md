@@ -20,7 +20,7 @@ The following rules have to be respected:
 • No need to say that philosophers should avoid dying!  
 
 • My program should take the following arguments:  
-&emsp;number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]  
+&emsp;number_of_philosophers   time_to_die   time_to_eat   time_to_sleep   [number_of_times_each_philosopher_must_eat]  
 &emsp;◦ number_of_philosophers: The number of philosophers and also the number  
 &ensp;&emsp;of forks.  
 &emsp;◦ time_to_die (in milliseconds): If a philosopher didn’t start eating time_to_die  
